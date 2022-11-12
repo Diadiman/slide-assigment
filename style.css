@@ -23,6 +23,15 @@
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
     color: antiquewhite;
+    opacity: 0;
+}
+
+.swiper .swiper-button-prev:hover{
+    opacity: 1;
+} 
+
+.swiper-button-next:hover{
+    opacity: 1;
 }
 .swiper .swiper-pagination-bullet-active{
     background: #fff;
